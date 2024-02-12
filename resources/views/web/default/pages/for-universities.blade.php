@@ -914,7 +914,7 @@
                <div class="col-lg-3 col-md-3">
                   <div class="single-footer-widget">
                      <a class="logo" href="./index.html"> 																																	<img src="https://assets.rightclick-academy.com/images/2023-08-Q-Hub-1.png" alt="Q-Hub"> 																														</a> 																			
-                     <p style="margin-top: 20px;">Right Click Academy is a Learning Management System (LMS) committed to unleashing the complete potential of every learner.</p>
+                     <p style="margin-top: 20px;">Valued Seed Academy is a Learning Management System (LMS) committed to unleashing the complete potential of every learner.</p>
                      <ul class="social-link">
                         <li>                     <a class="d-block twitter" target="_blank" href="#"> <i class="bx bxl-twitter"></i></a>                 </li>
                         <li>                     <a class="d-block facebook" target="_blank" href="#"> <i class="bx bxl-facebook"></i></a>                 </li>
@@ -952,7 +952,7 @@
             <div class="footer-bottom-area">
                <div class="row align-items-center">
                   <div class="col-lg-6 col-md-6">
-                     <p><i class="bx bx-copyright"></i>2023 Right Click Academy | All rights Reserved.</p>
+                     <p><i class="bx bx-copyright"></i>2023 Valued Seed Academy | All rights Reserved.</p>
                   </div>
                   <div class="col-lg-6 col-md-6">
                      <ul id="menu-footer-menu" class="menu">

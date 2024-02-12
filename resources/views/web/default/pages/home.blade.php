@@ -326,7 +326,7 @@
                                        <div class="view-all-courses-content">
                                           <span class="sub-title">Skillful Instructors &amp; Happy Students</span>                                  
                                           <h2 >Feels Like You Are Attending Your Classes Physically!</h2>
-                                          <p>Right Click Academy training programs can bring you a super exciting experience of learning through online! You never face any negative experience while enjoying your classes virtually by sitting in your comfort zone. Our flexible learning initiatives will help you to learn better and quicker than the traditional ways of learning skills. </p>
+                                          <p>Valued Seed Academy training programs can bring you a super exciting experience of learning through online! You never face any negative experience while enjoying your classes virtually by sitting in your comfort zone. Our flexible learning initiatives will help you to learn better and quicker than the traditional ways of learning skills. </p>
                                           <a href="https://hub.rightclick-academy.com/courses/" class="default-btn"><i class="flaticon-agenda"></i>View Courses<span></span></a>                                                              
                                        </div>
                                     </div>
@@ -458,7 +458,7 @@
                                        <div class="feedback-content">
                                           <span class="sub-title">Distance learning</span>                  
                                           <h2 >Flexible Study at Your Own Pace, According to Your Own Needs</h2>
-                                          <p >With Right Click Academy, you can study whenever and wherever you choose. We have students in over 175 countries and a global reputation as a pioneer in the field of flexible learning. Our teaching also means, if you travel often or need to relocate, you can continue to study wherever you go.</p>
+                                          <p >With Valued Seed Academy, you can study whenever and wherever you choose. We have students in over 175 countries and a global reputation as a pioneer in the field of flexible learning. Our teaching also means, if you travel often or need to relocate, you can continue to study wherever you go.</p>
                                           <div class="feedback-slides owl-carousel owl-theme">
                                              <div class="single-feedback-item">
                                                 <p>I&#039;ve been a lifelong learner, and this learning website has become my go-to platform. The quality of the content, the ease of navigation, and the continuous addition of new courses keep me engaged and motivated. If you&#039;re someone who values knowledge and personal growth, this website is a treasure trove</p>
@@ -576,7 +576,7 @@
                                           <div class="get-instant-courses-content">
                                              <span class="sub-title">Get Instant Access to the Free</span>                                      
                                              <h2 >Self Development Course</h2>
-                                             <p >Right Click Academy Self Development Course can assist you in bringing the significant changes in personal understanding and reshaping the confidence to achieve the best from your career! We trust that learning should be enjoyable, and only that can make substantial changes to someone!</p>
+                                             <p >Valued Seed Academy Self Development Course can assist you in bringing the significant changes in personal understanding and reshaping the confidence to achieve the best from your career! We trust that learning should be enjoyable, and only that can make substantial changes to someone!</p>
                                              <a href="https://hub.rightclick-academy.com/profile/" class="default-btn"><i class="flaticon-user"></i>Start For Free<span></span></a>                                                                      
                                           </div>
                                        </div>
@@ -630,7 +630,7 @@
                <div class="col-lg-3 col-md-3">
                   <div class="single-footer-widget">
                      <a class="logo" href="#"> 																																	<img src="https://assets.rightclick-academy.com/images/2023-08-Q-Hub-1.png" alt="Q-Hub"> 																														</a> 																			
-                      <p style="margin-top: 20px;">Right Click Academy is a Learning Management System (LMS) committed to unleashing the complete potential of every learner.</p>
+                      <p style="margin-top: 20px;">Valued Seed Academy is a Learning Management System (LMS) committed to unleashing the complete potential of every learner.</p>
                      <ul class="social-link">
                         <li>                     <a class="d-block twitter" target="_blank" href="#"> <i class="bx bxl-twitter"></i></a>                 </li>
                         <li>                     <a class="d-block facebook" target="_blank" href="#"> <i class="bx bxl-facebook"></i></a>                 </li>
@@ -668,7 +668,7 @@
             <div class="footer-bottom-area">
                <div class="row align-items-center">
                   <div class="col-lg-6 col-md-6">
-                      <p><i class="bx bx-copyright"></i>2023 Right Click Academy | All rights Reserved.</p>
+                      <p><i class="bx bx-copyright"></i>2023 Valued Seed Academy | All rights Reserved.</p>
                   </div>
                   <div class="col-lg-6 col-md-6">
                      <ul id="menu-footer-menu" class="menu">
