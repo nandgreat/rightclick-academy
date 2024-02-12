@@ -7,7 +7,7 @@
 /storage/*.key
 command
 !vendor/laravel/ui/auth-backend
-vendor
+/vendor
 .env
 .env.backup
 .phpunit.result.cache
