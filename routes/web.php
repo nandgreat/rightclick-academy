@@ -230,7 +230,7 @@ Route::group(['namespace' => 'Web', 'middleware' => ['check_mobile_app', 'impers
     Route::get('/reward-courses', 'RewardCoursesController@index');
 
     Route::group(['prefix' => 'blog'], function () {
-        Route::get('/', 'BlogController@index');
+        Route::get('/', 'BlogController@index')->name('blog');
         Route::get('/categories/{category}', 'BlogController@index');
         Route::get('/{slug}', 'BlogController@show');
     });
