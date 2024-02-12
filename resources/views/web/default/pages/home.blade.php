@@ -278,7 +278,7 @@
                                        </div>
                                        <h3>Learn the Latest Top Skills</h3>
                                        <p>Learning top skills can bring an extra-ordinary outcome in a career.</p>
-                                       <a target="_self" href ="https://hub.rightclick-academy.com/courses/" class="link-btn">Start Now!</a>                                                              
+                                       <a target="_self" href ="{{route('classes')}}" class="link-btn">Start Now!</a>                                                              
                                     </div>
                                  </div>
                                  <div class="col-lg-3 col-sm-6 col-md-6">
@@ -286,7 +286,7 @@
                                        <div class="icon">                                       <i data-feather="check-square" width="70" height="70" class="text-black"></i>                            </div>
                                        <h3>Learn at Your Own Pace</h3>
                                        <p>Everyone prefers to enjoy learning at their own pace &amp; that gives a great result.</p>
-                                       <a target="_self" href ="https://hub.rightclick-academy.com/courses/" class="link-btn">Start Now!</a>                                                              
+                                       <a target="_self" href ="{{route('classes')}}" class="link-btn">Start Now!</a>                                                              
                                     </div>
                                  </div>
                                  <div class="col-lg-3 col-sm-6 col-md-6">
@@ -294,7 +294,7 @@
                                        <div class="icon">                                     <i data-feather="bar-chart" width="70" height="70" class="text-black"></i>                         </div>
                                        <h3>Learn From Industry Experts</h3>
                                        <p>Experienced teachers can assist in learning faster with their best approaches!</p>
-                                       <a target="_self" href ="https://hub.rightclick-academy.com/courses/" class="link-btn">Start Now!</a>                                                              
+                                       <a target="_self" href ="{{route('classes')}}" class="link-btn">Start Now!</a>                                                              
                                     </div>
                                  </div>
                                  <div class="col-lg-3 col-sm-6 col-md-6">
@@ -302,7 +302,7 @@
                                        <div class="icon">                                       <i data-feather="heart" width="70" height="70" class="text-black"></i>                        </div>
                                        <h3>Enjoy Learning From Anywhere </h3>
                                        <p>We are delighted to give you options to enjoy learning from anywhere in the world.</p>
-                                       <a target="_self" href ="https://hub.rightclick-academy.com/courses/" class="link-btn">Start Now!</a>                                                              
+                                       <a target="_self" href ="{{route('classes')}}" class="link-btn">Start Now!</a>                                                              
                                     </div>
                                  </div>
                               </div>
