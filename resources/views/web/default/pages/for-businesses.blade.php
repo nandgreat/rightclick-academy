@@ -625,7 +625,7 @@
             <div class="row">
                <div class="col-lg-3 col-md-3">
                   <div class="single-footer-widget">
-                     <a class="logo" href="./index.html"> 																																	<img src="https://assets.rightclick-academy.com/images/2023-08-Q-Hub-1.png" alt="Q-Hub"> 																														</a> 																			
+                     <a class="logo" href="./index.html"> 																																	<img src="{{asset('store/1/register/circle_logo.png')}}" width="100" alt="ValuedSeed-Academy"> 																														</a> 																			
                      <p style="margin-top: 20px;">Valued Seed Academy is a Learning Management System (LMS) committed to unleashing the complete potential of every learner.</p>
                      <ul class="social-link">
                         <li>                     <a class="d-block twitter" target="_blank" href="#"> <i class="bx bxl-twitter"></i></a>                 </li>

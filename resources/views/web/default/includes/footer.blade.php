@@ -517,7 +517,7 @@
    <link rel='stylesheet' id='ecademy-style-css' href='http://harmani.com.ng/qhub/css/ecademy-style.css' type='text/css' media='all' />
    <link rel='stylesheet' id='vendor-css' href='http://harmani.com.ng/qhub/css/ecademy-assets-css-vendor.min.css' type='text/css' media='all' />
    <link rel='stylesheet' id='ecademy-woocommerce-css' href='http://harmani.com.ng/qhub/css/ecademy-assets-css-woocommerce.css' type='text/css' media='all' />
-   <link rel='stylesheet' id='ecademy-main-style-css' href='http://harmani.com.ng/qhub/css/ecademy-assets-css-style.css' type='text/css' media='all' />
+   <link rel='stylesheet' id='ecademy-main-style-css' href="{{asset('assets/admin/css/css/ecademy-assets-css-style.css')}}" type='text/css' media='all' />
    <style id='ecademy-main-style-inline-css' type='text/css'>
       .default-btn,
       .ecademy-nav .navbar .navbar-nav .nav-item.megamenu .dropdown-menu .single-category-widget:hover .icon,
@@ -993,7 +993,7 @@
       }
 
       .footer-area {
-         background-color: #71BF45;
+         background-color: #71BF45 !important;
       }
 
       .single-footer-widget .social-link li .d-block:hover {
@@ -1447,7 +1447,7 @@
       <div class="row">
          <div class="col-lg-3 col-md-3">
             <div class="single-footer-widget">
-               <a class="logo" href="#"> <img src="https://assets.rightclick-academy.com/images/2023-08-Q-Hub-1.png" alt="Q-Hub" style="width: 250px !important;"> </a>
+               <a class="logo" href="#"> <img src="{{asset('store/1/register/circle_logo.png')}}" alt="Q-Hub" style="width: 150px !important;"> </a>
                <p style="margin-top: 20px;">Valued Seed Academy is a Learning Management System (LMS) committed to unleashing the complete potential of every learner.</p>
                <ul class="social-link">
                   <li> <a class="d-block twitter" target="_blank" href="#"> <i class="bx bxl-twitter"></i></a> </li>
@@ -1926,7 +1926,7 @@
 <script src="/assets/default/js/parts/main.min.js"></script>
 
 <script>
-   @if(session() - > has('registration_package_limited'))
+   @if(session()->has('registration_package_limited'))
       (function() {
          "use strict";
 
@@ -1936,7 +1936,7 @@
 
    {
       {
-         session() - > forget('registration_package_limited')
+         session()->forget('registration_package_limited')
       }
    }
    @endif
