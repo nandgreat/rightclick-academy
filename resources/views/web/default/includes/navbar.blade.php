@@ -50,39 +50,6 @@ $navBtnText = $navbarButton->title;
                                     <i data-feather="grid" width="20" height="20" class="mr-10 d-none d-lg-block"></i>
                                     {{ trans('categories.categories') }}
 
-                                    <ul class="cat-dropdown-menu">
-                                        @foreach($categories as $category)
-                                        <li>
-                                            <a href="{{ $category->getUrl() }}">
-                                                <div class="d-flex align-items-center">
-                                                    <img src="{{ $category->icon }}" class="cat-dropdown-menu-icon mr-10" alt="{{ $category->title }} icon">
-                                                    {{ $category->title }}
-                                                </div>
-
-                                                @if(!empty($category->subCategories) and count($category->subCategories))
-                                                <i data-feather="chevron-right" width="20" height="20" class="d-none d-lg-inline-block ml-10"></i>
-                                                <i data-feather="chevron-down" width="20" height="20" class="d-inline-block d-lg-none"></i>
-                                                @endif
-                                            </a>
-
-                                            @if(!empty($category->subCategories) and count($category->subCategories))
-                                            <ul class="sub-menu" data-simplebar @if((!empty($isRtl) and $isRtl)) data-simplebar-direction="rtl" @endif>
-                                                @foreach($category->subCategories as $subCategory)
-                                                <li>
-                                                    <a href="{{ $subCategory->getUrl() }}">
-                                                        @if(!empty($subCategory->icon))
-                                                        <img src="{{ $subCategory->icon }}" class="cat-dropdown-menu-icon mr-10" alt="{{ $subCategory->title }} icon">
-                                                        @endif
-
-                                                        {{ $subCategory->title }}
-                                                    </a>
-                                                </li>
-                                                @endforeach
-                                            </ul>
-                                            @endif
-                                        </li>
-                                        @endforeach
-                                    </ul>
                                 </li>
                             </ul>
                         </div>
@@ -107,11 +74,11 @@ $navBtnText = $navbarButton->title;
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('instructor-finder') }}">Early Child Learning</a>
+                        <a class="nav-link" href="#">Early Child Learning</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('classes') }}">Higher Education</a>
+                        <a class="nav-link" href="#">Higher Education</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{route('blog')}}">Blog</a>
