@@ -57,7 +57,6 @@
     @endif
 
     @if(!isset($appHeader))
-        @include('web.default.includes.top_nav')
         @include('web.default.includes.navbar')
     @endif
 

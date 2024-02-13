@@ -89,14 +89,30 @@ $navBtnText = $navbarButton->title;
                     </li>
                     @endif
 
-                    @if(!empty($navbarPages) and count($navbarPages))
+                    <!-- @if(!empty($navbarPages) and count($navbarPages))
                     @foreach($navbarPages as $navbarPage)
                     <li class="nav-item">
                         <a class="nav-link" href="{{ $navbarPage['link'] }}">{{ $navbarPage['title'] }}</a>
                     </li>
 
                     @endforeach
-                    @endif
+                    @endif -->
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('home') }}">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('classes') }}">Subjects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('instructor-finder') }}">Early Child Learning</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('classes') }}">Higher Education</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{route('blog')}}">Blog</a>
 

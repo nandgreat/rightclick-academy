@@ -86,7 +86,7 @@ Route::group(['namespace' => 'Web', 'middleware' => ['check_mobile_app', 'impers
     // set Locale
     Route::post('/set-currency', 'SetCurrencyController@setCurrency');
 
-    Route::get('/', 'HomeController@index');
+    Route::get('/', 'HomeController@index')->name('home');
 
     Route::get('/getDefaultAvatar', 'DefaultAvatarController@make');
 
@@ -280,7 +280,7 @@ Route::group(['namespace' => 'Web', 'middleware' => ['check_mobile_app', 'impers
     });
 
     Route::group(['prefix' => 'instructor-finder'], function () {
-        Route::get('/', 'InstructorFinderController@index');
+        Route::get('/', 'InstructorFinderController@index')->name('instructor-finder');
         Route::get('/wizard', 'InstructorFinderController@wizard');
     });
 
