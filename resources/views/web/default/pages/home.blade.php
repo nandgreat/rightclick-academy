@@ -327,7 +327,7 @@
                                           <span class="sub-title">Skillful Instructors &amp; Happy Students</span>                                  
                                           <h2 >Feels Like You Are Attending Your Classes Physically!</h2>
                                           <p>Right Click Academy training programs can bring you a super exciting experience of learning through online! You never face any negative experience while enjoying your classes virtually by sitting in your comfort zone. Our flexible learning initiatives will help you to learn better and quicker than the traditional ways of learning skills. </p>
-                                          <a href="https://hub.rightclick-academy.com/courses/" class="default-btn"><i class="flaticon-agenda"></i>View Courses<span></span></a>                                                              
+                                          <a href="{{route('classes')}}" class="default-btn"><i class="flaticon-agenda"></i>View Courses<span></span></a>                                                              
                                        </div>
                                     </div>
                                     <div class="col-lg-6 col-md-12">
@@ -492,7 +492,7 @@
                                              </div>
                                           </div>
                                           <div class="feedback-info">
-                                             <p>Not a member yet? <a href="https://hub.rightclick-academy.com/profile/">Register now</a></p>
+                                             <p>Not a member yet? <a href="{{route('register-form')}}">Register now</a></p>
                                           </div>
                                        </div>
                                     </div>
@@ -577,7 +577,7 @@
                                              <span class="sub-title">Get Instant Access to the Free</span>                                      
                                              <h2 >Self Development Course</h2>
                                              <p >Right Click Academy Self Development Course can assist you in bringing the significant changes in personal understanding and reshaping the confidence to achieve the best from your career! We trust that learning should be enjoyable, and only that can make substantial changes to someone!</p>
-                                             <a href="https://hub.rightclick-academy.com/profile/" class="default-btn"><i class="flaticon-user"></i>Start For Free<span></span></a>                                                                      
+                                             <a href="{{route('classes')}}" class="default-btn"><i class="flaticon-user"></i>Start For Free<span></span></a>                                                                      
                                           </div>
                                        </div>
                                        <div class="col-lg-4 col-md-12">
@@ -610,7 +610,7 @@
                                     <span class="sub-title">Affordable Certification</span>                          
                                     <h2 >Get Your Quality Skills Certificate Through Online Exam</h2>
                                     <p >Students friendly pricing for the certificate programs helps individuals to get their skill certificate easier than ever!</p>
-                                    <a href="https://hub.rightclick-academy.com/become-a-teacher/" class="default-btn"><i class="flaticon-agenda"></i> Get Started Now<span></span></a>                                                  
+                                    <a href="{{route('becomeInstructor')}}" class="default-btn"><i class="flaticon-agenda"></i> Get Started Now<span></span></a>                                                  
                                  </div>
                               </div>
                               <div class="shape3">                                                              <img decoding="async" src="https://assets.rightclick-academy.com/images/2020-05-shape3.png" alt="Shape Image">                                                      </div>
@@ -643,11 +643,11 @@
                   <h3>Resources</h3>
                   <div class="menu-footer-resources-container">
                      <ul id="menu-footer-resources" class="menu">
-                        <li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"><a href="https://hub.rightclick-academy.com/become-instructor/">Become an Instructor</a></li>
-                        <li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41"><a href="https://hub.rightclick-academy.com/profile/">Instructor/Student Profile</a></li>
-                        <li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42"><a href="https://hub.rightclick-academy.com/courses/">Courses</a></li>
-                        <li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="https://hub.rightclick-academy.com/lp-checkout/">LP Checkout</a></li>
-                        <li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="https://hub.rightclick-academy.com/terms-conditions/">Terms &#038; Conditions</a></li>
+                        <li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"><a href="{{route('becomeInstructor')}}">Become an Instructor</a></li>
+                        <li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41"><a href="#">Instructor/Student Profile</a></li>
+                        <li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42"><a href="{{route('classes')}}">Courses</a></li>
+                        <li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="{{route('home')}}">LP Checkout</a></li>
+                        <li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="#">Terms &#038; Conditions</a></li>
                      </ul>
                   </div>
                </div>

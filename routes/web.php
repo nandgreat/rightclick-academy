@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 Route::group(['prefix' => 'my_api', 'namespace' => 'Api\Panel', 'middleware' => 'signed', 'as' => 'my_api.web.'], function () {
     Route::get('checkout/{user}', 'CartController@webCheckoutRender')->name('checkout');
     Route::get('/charge/{user}', 'PaymentsController@webChargeRender')->name('charge');
@@ -22,7 +23,6 @@ Route::group(['prefix' => 'my_api', 'namespace' => 'Api\Panel', 'middleware' => 
 Route::group(['prefix' => 'api_sessions'], function () {
     Route::get('/big_blue_button', ['uses' => 'Api\Panel\SessionsController@BigBlueButton'])->name('big_blue_button');
     Route::get('/agora', ['uses' => 'Api\Panel\SessionsController@agora'])->name('agora');
-
 });
 
 Route::get('/mobile-app', 'Web\MobileAppController@index')->middleware(['share'])->name('mobileAppRoute');
@@ -54,7 +54,7 @@ Route::group(['namespace' => 'Auth', 'middleware' => ['check_mobile_app', 'share
     Route::get('/login', 'LoginController@showLoginForm');
     Route::post('/login', 'LoginController@login');
     Route::get('/logout', 'LoginController@logout');
-    Route::get('/register', 'RegisterController@showRegistrationForm');
+    Route::get('/register', 'RegisterController@showRegistrationForm')->name('register-form');
     Route::post('/register', 'RegisterController@register');
     Route::post('/register/form-fields', 'RegisterController@getFormFieldsByUserType');
     Route::get('/verification', 'VerificationController@index');
@@ -86,7 +86,7 @@ Route::group(['namespace' => 'Web', 'middleware' => ['check_mobile_app', 'impers
     // set Locale
     Route::post('/set-currency', 'SetCurrencyController@setCurrency');
 
-    Route::get('/', 'HomeController@index');
+    Route::get('/', 'HomeController@index')->name('home');
 
     Route::get('/getDefaultAvatar', 'DefaultAvatarController@make');
 
@@ -191,7 +191,6 @@ Route::group(['namespace' => 'Web', 'middleware' => ['check_mobile_app', 'impers
             Route::post('/', 'BecomeInstructorController@store');
             Route::post('/form-fields', 'BecomeInstructorController@getFormFieldsByUserType');
         });
-
     });
 
     Route::group(['prefix' => 'meetings'], function () {
@@ -388,16 +387,14 @@ Route::group(['namespace' => 'Web', 'middleware' => ['check_mobile_app', 'impers
     /* Forms */
     Route::get('/forms/{url}', 'FormsController@index');
     Route::post('/forms/{url}/store', 'FormsController@store');
-
 });
 
 Route::get('/for-businesses', function () {
     return view('/web/default/pages/for-businesses');
-});
+})->name('for-businesses');
 Route::get('/for-universities', function () {
     return view('/web/default/pages/for-universities');
-});
+})->name('for-universities');
 Route::get('/for-government', function () {
     return view('/web/default/pages/for-government');
-});
-
+})->name('for-government');

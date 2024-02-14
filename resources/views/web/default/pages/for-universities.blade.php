@@ -188,17 +188,17 @@
                                                                 <div class="banner-wrapper-image">
                                                                     <img
                                                                         decoding="async"
-                                                                        src="https://harmani.com.ng/qhub/images/2023-08-medium-shot-smiley-woman-with-smartphone-scaled.jpg"
+                                                                        src="https://assets.rightclick-academy.com/images/2023-09-FOR-UNIVERSITIES1.png"
                                                                         alt="Build Skills With Experts Any Time, Anywhere"
                                                                     />
                                                                     <div class="banner-shape8" data-speed="0.06" data-revert="true">
-                                                                        <img decoding="async" src="https://harmani.com.ng/qhub/images/2020-05-banner-shape8.png" alt="shape image" />
+                                                                        <img decoding="async" src="https://assets.rightclick-academy.com/images/2023-09-FOR-BUSINESSES1.png" alt="shape image" />
                                                                     </div>
                                                                     <div class="banner-shape9" data-speed="0.06" data-revert="true">
-                                                                        <img decoding="async" src="https://harmani.com.ng/qhub/images/2020-05-banner-shape9.png" alt="shape image" />
+                                                                        <img decoding="async" src="https://assets.rightclick-academy.com/images/2023-09-FOR-BUSINESSES1.png" alt="shape image" />
                                                                     </div>
                                                                     <div class="banner-shape10" data-speed="0.06" data-revert="true">
-                                                                        <img decoding="async" src="https://harmani.com.ng/qhub/images/2020-05-banner-shape10.png" alt="shape image" />
+                                                                        <img decoding="async" src="https://assets.rightclick-academy.com/images/2023-09-FOR-UNIVERSITIES1.png" alt="shape image" />
                                                                     </div>
                                                                 </div>
                                                             </div>

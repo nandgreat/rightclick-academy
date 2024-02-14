@@ -17,6 +17,7 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cookie;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\MessageBag;
 use Illuminate\Validation\ValidationException;
@@ -94,6 +95,8 @@ class RegisterController extends Controller
         if (!empty($data['mobile']) and !empty($data['country_code'])) {
             $data['mobile'] = ltrim($data['country_code'], '+') . ltrim($data['mobile'], '0');
         }
+
+        Log::info($data['mobile']);
 
         $rules = [
             'country_code' => ($registerMethod == 'mobile') ? 'required' : 'nullable',
@@ -181,6 +184,8 @@ class RegisterController extends Controller
     {
         $validate = $this->validator($request->all());
 
+        Log::info($request->all());
+
         if ($validate->fails()) {
             $errors = $validate->errors();
 
@@ -227,10 +232,10 @@ class RegisterController extends Controller
         if (!empty($data['mobile'])) {
             $checkIsValid = checkMobileNumber($data['mobile']);
 
-            if (!$checkIsValid) {
-                $errors['mobile'] = [trans('update.mobile_number_is_not_valid')];
-                return back()->withErrors($errors)->withInput($request->all());
-            }
+            // if (!$checkIsValid) {
+            //     $errors['mobile'] = [trans('update.mobile_number_is_not_valid')];
+            //     return back()->withErrors($errors)->withInput($request->all());
+            // }
         }
 
         $user = $this->create($request->all());

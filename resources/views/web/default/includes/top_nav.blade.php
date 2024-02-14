@@ -63,11 +63,11 @@
 <ul style="list-style: none; color: white !important; margin-top: 15px;">
    <a href="https://hub.rightclick-academy.com" style="color: white !important;"> <li style=" display: inline-block;
   margin: 10px;" > For <strong> Individual </strong> </li></a>
-    <a href="https://hub.rightclick-academy.com/for-businesses" style="color: white !important;"> <li style=" display: inline-block;
+    <a href="{{route('for-businesses')}}" style="color: white !important;"> <li style=" display: inline-block;
   margin: 10px;" > For <strong> Businesses </strong> </li></a>
-   <a href="https://hub.rightclick-academy.com/for-universities" style="color: white !important;"> <li style=" display: inline-block;
+   <a href="{{route('for-universities')}}" style="color: white !important;"> <li style=" display: inline-block;
   margin: 10px;" > For <strong> Universities </strong> </li></a>
-   <a href="https://hub.rightclick-academy.com/for-government" style="color: white !important;"> <li style=" display: inline-block;
+   <a href="{{route('for-government')}}" style="color: white !important;"> <li style=" display: inline-block;
   margin: 10px;" > For <strong> Government </strong> </li></a>
 </ul>
              <!--   <form action="/search" method="get" class="form-inline my-2 my-lg-0 navbar-search position-relative">
