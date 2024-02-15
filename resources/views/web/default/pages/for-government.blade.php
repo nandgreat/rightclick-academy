@@ -808,19 +808,13 @@
  <footer class="footer-area">
          <div class="container">
             <div class="row">
-               <div class="col-lg-3 col-md-3">
+               <div class="col-lg-4 col-md-4">
                   <div class="single-footer-widget">
                      <a class="logo" href="./index.html"> 																																	<img src="{{asset('store/1/register/circle_logo.png')}}" width="100" alt="ValuedSeed-Academy"> 																														</a> 																			
                      <p style="margin-top: 20px;">Valued Seed Academy is a Learning Management System (LMS) committed to unleashing the complete potential of every learner.</p>
-                     <ul class="social-link">
-                        <li>                     <a class="d-block twitter" target="_blank" href="#"> <i class="bx bxl-twitter"></i></a>                 </li>
-                        <li>                     <a class="d-block facebook" target="_blank" href="#"> <i class="bx bxl-facebook"></i></a>                 </li>
-                        <li>                     <a class="d-block instagram" target="_blank" href="#"> <i class="bx bxl-instagram"></i></a>                 </li>
-                        <li>                 <a class="d-block" target="_blank" href="#" > <i class="bx bxl-linkedin"></i></a>             </li>
-                     </ul>
                   </div>
                </div>
-               <div class="single-footer-widget col-lg-3 col-md-3 widget_nav_menu">
+               <div class="single-footer-widget col-lg-4 col-md-4 widget_nav_menu">
                   <h3>Resources</h3>
                   <div class="menu-footer-resources-container">
                      <ul id="menu-footer-resources" class="menu">
@@ -832,18 +826,14 @@
                      </ul>
                   </div>
                </div>
-               <div class="single-footer-widget col-lg-3 col-md-3 widget_ecademy_contact_info">
+               <div class="single-footer-widget col-lg-4 col-md-4 widget_ecademy_contact_info">
                   <h3>Contact Information</h3>
                   <ul class="footer-contact-info">
-                     <li>                      <i class="bx bx-map"></i>                      <a href="#" target="_blank">2750 Quadra Street Victoria Road, Abuja, Nigeria</a>                  </li>
+                     <li>                      <i class="bx bx-map"></i>                      <a href="#" target="_blank">20 Fatai Idowu Arobieke Street, Lekki Phase 1, Lagos State</a>                  </li>
                      <li>                      <i class="bx bx-phone-call"></i>                      <a href="#">+1-485-456-0102</a>                  </li>
                      <li>                      <i class="bx bx-envelope"></i>                      <a href="#">hello@rightclick-academy.com</a>                  </li>
                      <li>                      <i class="bx bxs-inbox"></i>                      <a href="tel:+1%20587%20785%2045789">+1 587 785 45789</a>                  </li>
                   </ul>
-               </div>
-               <div class="single-footer-widget col-lg-3 col-md-3 widget_media_image">
-                  <h3>Download Now</h3>
-                  <img width="579" height="431" src="https://assets.rightclick-academy.com/images/2023-08-122-1226734_android-app-store-png-app-store-and-android-removebg-preview.png" class="image wp-image-4657  attachment-full size-full" alt="" decoding="async" style="max-width: 100%; height: auto;" loading="lazy" srcset="https://assets.rightclick-academy.com/images/2023-08-122-1226734_android-app-store-png-app-store-and-android-removebg-preview.png 579w, https://assets.rightclick-academy.com/images/2023-08-122-1226734_android-app-store-png-app-store-and-android-removebg-preview-300x223.png 300w" sizes="(max-width: 579px) 100vw, 579px" />
                </div>
             </div>
             <div class="footer-bottom-area">

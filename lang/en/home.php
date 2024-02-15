@@ -13,7 +13,7 @@ return [
     'slider_heading' => 'Enjoy online learning',
     'slider_hint' => "Online education is one of the best choices to grow \n learn from the best teachers around the world",
 
-    'slider_search_placeholder' => 'Search courses, instructors and organizations...',
+    'slider_search_placeholder' => 'Search courses, Primary and Secondary school students',
     'find' => 'Search',
 
     'view_all' => 'View All',
