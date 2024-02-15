@@ -15014,7 +15014,7 @@ p {
 
 .navbar-brand {
   width: 170px;
-  height: 80px;
+  height: 90px !important;
 }
 @media (max-width: 991px) {
   .navbar-brand {
