@@ -31,7 +31,7 @@ class ProductController extends Controller
         $data = $request->all();
 
         $query = Product::where('products.status', Product::$active)
-            ->where('ordering', true);
+            ->where('ordering', true)->where('creator_id', '<>', auth()->user()->id);
 
         $query = $this->handleFilters($request, $query);
 

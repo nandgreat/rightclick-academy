@@ -16500,7 +16500,7 @@ p {
 .webinar-card .image-box img {
   border-radius: 15px 15px 0 0;
 }
-.webinar-card .image-box::after {
+.webinar-card .image-box a::after {
   content: "";
   position: absolute;
   left: 0;
