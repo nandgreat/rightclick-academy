@@ -15018,8 +15018,8 @@ p {
 }
 @media (max-width: 991px) {
   .navbar-brand {
-    width: 88px;
-    max-width: 88px;
+    width: 110px;
+    max-width: 110px;
     margin-right: 0;
   }
   .navbar-brand img {
