@@ -12,7 +12,7 @@
                 <div class="menu-footer-resources-container">
                     <ul id="menu-footer-resources" class="menu">
                         <li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"><a href="{{route('becomeInstructor')}}">Become an Instructor</a></li>
-                        <li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41"><a href="#">Instructor/Student Profile</a></li>
+                        <li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41"><a href="{{auth()->check() ? '/users/auth()->user()->id/profile' : '#'}}">Instructor/Student Profile</a></li>
                         <li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42"><a href="{{route('classes')}}">Courses</a></li>
                         <li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="#">LP Checkout</a></li>
                         <li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="#">Terms &#038; Conditions</a></li>

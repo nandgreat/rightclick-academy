@@ -170,7 +170,7 @@
                                 <div class="kindergarten-banner-content">
                                   <div class="image"><img decoding="async" src="https://assets.rightclick-academy.com/images/2020-06-bird2.png" style="width: 120px !important;" alt="A lifetime of &lt;span&gt;Confidence&lt;/span&gt; starts here"></div>
                                   <h1> A lifetime of <span>Confidence</span> starts here </h1>
-                                  <p>Embrace dynamic content, advanced analytics, and collaborative features to drive innovation in teaching and learning.</p><a href="https://hub.rightclick-academy.com/panel" class="default-btn-style-two"><i class="flaticon-user"></i>Get Started<span></span></a>
+                                  <p>Embrace dynamic content, advanced analytics, and collaborative features to drive innovation in teaching and learning.</p><a href="{{route('register')}}" class="default-btn-style-two"><i class="flaticon-user"></i>Get Started<span></span></a>
                                   <div class="circle-shape"><img decoding="async" src="https://assets.rightclick-academy.com/images/2020-06-circle2.png" alt="Shape Image"></div>
                                 </div>
                               </div>
@@ -483,7 +483,7 @@
                                              </div>
                                           </div>
                                           <div class="feedback-info">
-                                             <p>Not a member yet? <a href="{{route('classes')}}">Register now</a></p>
+                                             <p>Not a member yet? <a href="{{route('register')}}">Register now</a></p>
                                           </div>
                                        </div>
                                     </div>
@@ -568,7 +568,7 @@
                                              <span class="sub-title">Get Instant Access to the Free</span>                                      
                                              <h2 >Self Development Course</h2>
                                              <p >Valued Seed Academy Self Development Course can assist you in bringing the significant changes in personal understanding and reshaping the confidence to achieve the best from your career! We trust that learning should be enjoyable, and only that can make substantial changes to someone!</p>
-                                             <a href="https://hub.rightclick-academy.com/profile/" class="default-btn"><i class="flaticon-user"></i>Start For Free<span></span></a>                                                                      
+                                             <a href="{{route('register')}}" class="default-btn"><i class="flaticon-user"></i>Start For Free<span></span></a>                                                                      
                                           </div>
                                        </div>
                                        <div class="col-lg-4 col-md-12">
