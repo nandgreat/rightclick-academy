@@ -831,7 +831,7 @@
                   <ul class="footer-contact-info">
                      <li>                      <i class="bx bx-map"></i>                      <a href="#" target="_blank">20 Fatai Idowu Arobieke Street, Lekki Phase 1, Lagos State</a>                  </li>
                      <li>                      <i class="bx bx-phone-call"></i>                      <a href="#">+1-485-456-0102</a>                  </li>
-                     <li>                      <i class="bx bx-envelope"></i>                      <a href="#">hello@rightclick-academy.com</a>                  </li>
+                     <li>                      <i class="bx bx-envelope"></i>                      <a href="#">hello@valuedseed-academy.com</a>                  </li>
                      <li>                      <i class="bx bxs-inbox"></i>                      <a href="tel:+1%20587%20785%2045789">+1 587 785 45789</a>                  </li>
                   </ul>
                </div>
@@ -839,7 +839,7 @@
             <div class="footer-bottom-area">
                <div class="row align-items-center">
                   <div class="col-lg-6 col-md-6">
-                     <p><i class="bx bx-copyright"></i>2023 Valued Seed Academy | All rights Reserved.</p>
+                     <p><i class="bx bx-copyright"></i>@php echo date('Y') @endphp Valued Seed Academy | All rights Reserved.</p>
                   </div>
                   <div class="col-lg-6 col-md-6">
                      <ul id="menu-footer-menu" class="menu">

@@ -628,11 +628,11 @@
                   <h3>Resources</h3>
                   <div class="menu-footer-resources-container">
                      <ul id="menu-footer-resources" class="menu">
-                        <li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"><a href="https://hub.rightclick-academy.com/become-instructor/">Become an Instructor</a></li>
-                        <li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41"><a href="https://hub.rightclick-academy.com/profile/">Instructor/Student Profile</a></li>
-                        <li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42"><a href="https://hub.rightclick-academy.com/courses/">Courses</a></li>
-                        <li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="https://hub.rightclick-academy.com/lp-checkout/">LP Checkout</a></li>
-                        <li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="https://hub.rightclick-academy.com/terms-conditions/">Terms &#038; Conditions</a></li>
+                        <li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"><a href="{{route('becomeInstructor')}}">Become an Instructor</a></li>
+                        <li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41"><a href="#">Instructor/Student Profile</a></li>
+                        <li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42"><a href="{{route('classes')}}">Courses</a></li>
+                        <li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="#">LP Checkout</a></li>
+                        <li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="#">Terms &#038; Conditions</a></li>
                      </ul>
                   </div>
                </div>
@@ -641,7 +641,7 @@
                   <ul class="footer-contact-info">
                      <li>                      <i class="bx bx-map"></i>                      <a href="#" target="_blank">20 Fatai Idowu Arobieke Street, Lekki Phase 1, Lagos State</a>                  </li>
                      <li>                      <i class="bx bx-phone-call"></i>                      <a href="#">+1-485-456-0102</a>                  </li>
-                     <li>                      <i class="bx bx-envelope"></i>                      <a href="#">hello@rightclick-academy.com</a>                  </li>
+                     <li>                      <i class="bx bx-envelope"></i>                      <a href="#">hello@valuedseed-academy.com</a>                  </li>
                      <li>                      <i class="bx bxs-inbox"></i>                      <a href="tel:+1%20587%20785%2045789">+1 587 785 45789</a>                  </li>
                   </ul>
                </div>
@@ -649,7 +649,7 @@
             <div class="footer-bottom-area">
                <div class="row align-items-center">
                   <div class="col-lg-6 col-md-6">
-                      <p><i class="bx bx-copyright"></i>2023 Valued Seed Academy | All rights Reserved.</p>
+                      <p><i class="bx bx-copyright"></i>@php echo date('Y') @endphp Valued Seed Academy | All rights Reserved.</p>
                   </div>
                   <div class="col-lg-6 col-md-6">
                      <ul id="menu-footer-menu" class="menu">
